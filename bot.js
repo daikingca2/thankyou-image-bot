@@ -21,7 +21,7 @@ controller.hears('hi',['direct_message','direct_mention','mention'],function(bot
     bot.reply(message,'hi');
 });
 
-// つねに
-controller.hears(['direct_message','direct_mention','mention'],function(bot,message) {
-    bot.reply(message,'ごりら');
+// すべてのメッセージに対して → 1個目の引数を空にすればok
+controller.hears('',['direct_message','direct_mention','mention'],function(bot,message) {
+    bot.reply(message,'ごり');
 });
