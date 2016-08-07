@@ -19,6 +19,7 @@
   "homepage": "https://github.com/daikingca2/thankyou-image-bot#readme",
   "dependencies": {
     "botkit": "^0.2.2",
-    "config": "^1.21.0"
+    "config": "^1.21.0",
+    "request-promise": "^4.1.0"
   }
 }

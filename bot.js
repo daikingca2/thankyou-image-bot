@@ -20,3 +20,8 @@ var bot = controller.spawn({
 controller.hears('hi',['direct_message','direct_mention','mention'],function(bot,message) {
     bot.reply(message,'hi');
 });
+
+// つねに
+controller.hears(['direct_message','direct_mention','mention'],function(bot,message) {
+    bot.reply(message,'ごりら');
+});
